@@ -1,0 +1,13 @@
+Parameter,Value,Unit,Description
+S0,6627.88,Points,Spot Price
+K,6630.00,Points,Strike Price
+T,0.25,Years,Maturity
+r,0.03864,Ratio,Risk-Free Rate
+C_obs,295.00,Points,Observed Market Price
+
+# Heston Parameters
+v0,0.035,Variance,Initial Variance
+kappa,2.5,Unit/Year,Speed of Mean Reversion
+theta,0.03,Variance,Long-Term Mean Variance
+sigma_v,0.4,Unit/Sqrt(Year),Volatility of Volatility
+rho,-0.7,Ratio,Correlation between Stock and Variance
