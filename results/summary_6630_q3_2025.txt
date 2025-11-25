@@ -1,0 +1,21 @@
+=====================================================
+RÉSUMÉ DE VALORISATION HESTON vs BLACK-SCHOLES
+Option: Call K=6630, T=3 mois, S0=6627.88
+=====================================================
+
+--- PRIX DE MARCHE ---
+Prix Observé (Cobs) : 295.000
+
+--- MODÈLE BLACK-SCHOLES (BS) ---
+Prix théorique BS : 308.641
+Erreur simple (BS) : +13.641
+Statut: Surévalue l'option.
+
+--- MODÈLE HESTON ---
+Prix théorique Heston : 268.527
+Erreur simple (Heston): -26.473
+Statut: Sous-évalue l'option.
+
+--- CONCLUSION ---
+Le modèle de Black-Scholes est plus proche du prix de marché pour cette option At-The-Money (ATM).
+Cependant, l'erreur Heston négative confirme l'influence des paramètres de Skew (rho=-0.7), qui tirent le prix vers le bas en favorisant les mouvements de marché extrêmes.
